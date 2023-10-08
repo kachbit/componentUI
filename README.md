@@ -35,7 +35,33 @@ setup:
     
 # then define all components from corresponding files
 menubar:
-    path: ./components/menubar.xml
+    path: ./components/menubar.cui
 filetree:
-    path: ./components/filetree.xml
+    path: ./components/filetree.cui
+```
+.cui filed are in xml format. <br>``menubar.cui``:
+``` xml
+<menu>
+<data>
+{
+  "name of first dropdown": {
+    "content": "dropdown_1 {% raw %}{%optionalFunctionNameHere%}{% endraw %}", // custom function name goes in:{% raw %} {%%} {% endraw %}
+    subMenu:false
+  },
+  "name of second dropdown": {
+    "content": "dropdown_2",
+    submenu:false
+  }
+}
+</data>
+<funcs>
+// javascript
+function optionalFunctionNameHere() {
+  console.log('first dropdown was clicked')
+}
+function dropdown_2() {
+  console.log('second dropdown was clicked')
+}
+</funcs>
+</menu>
 ```
