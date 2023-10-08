@@ -8,7 +8,7 @@ the grid stucture is created using html and a special file assigns a UI componen
 
 ![img](./assets/layout.png "")
 
-each section can be split into any 4 subsections (top bottom left right center). left bar and right bar can be added. also tabs can be built in to each section without needing a subsection
+each section can be split into any 4 subsections (top bottom left right center). a full length/width bar can be added to any edge and also in layers. also tabs can be built in to each section without needing a subsection
 
 
 ## UI components:
