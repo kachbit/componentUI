@@ -12,7 +12,7 @@ each section can be split into any 4 subsections (top bottom left right center).
 
 
 ## UI components:
-* [Tabs-UI]([url](https://github.com/kachbit/Tabs-UI))
-* [FileTree-UI]([url](https://github.com/kachbit/FileTree-UI)https://github.com/kachbit/FileTree-UI)
-* [Menubar-UI]([url](https://github.com/kachbit/Menubar-UI)https://github.com/kachbit/Menubar-UI)
+* [Tabs-UI](https://github.com/kachbit/Tabs-UI)
+* [FileTree-UI](https://github.com/kachbit/FileTree-UI) 
+* [Menubar-UI](https://github.com/kachbit/Menubar-UI) 
 * more coming soon
