@@ -63,5 +63,12 @@ function dropdown_2() {
   console.log('second dropdown was clicked')
 }
 </funcs>
+<style>
+/* overwrite custom css style for menubar */
+menubar {
+    background: white;
+    padding: 10px;
+}
+</style>
 </menu>
 ```
